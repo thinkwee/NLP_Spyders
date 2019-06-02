@@ -1,2 +1,9 @@
 # NLP_Spyders
-Various spyders for crawling NLP corpus
+-   各种语料爬虫
+    -   acl_link+acl_pdf：爬取ACL论文，爬取链接和爬取pdf分开写，10到18年约9000多篇
+    -   exec_pdf2txt+pdf2txt：将pdf论文转换为文本
+    -   china_news：爬取中国新闻网，可用于中文文本分类，27类，12年到18年可爬取350w+新闻
+    -   douban_spyder：爬取豆瓣书评，需改进防止被反爬虫
+    -   sina_spyder：爬取新浪新闻，可用于文本分类，类别比例比较不均匀
+    -   wiki_spyder：爬取英文维基百科，可用于链接分析和聚类
+    -   china_news_headline_generation：爬取中国新闻网新闻正文+标题，用于标题生成任务
